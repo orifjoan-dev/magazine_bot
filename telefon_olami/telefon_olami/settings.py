@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p)e85@zw(6^n=5cp!zv+48w@*44i@$#&h7fsgnf@j#@=c)$uob'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'telefon_olami.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'telefon_olami',
-       'USER': 'orifjoan',
-       'PASSWORD': '19951015',
-       'HOST': 'localhost',
-       'PORT': '5432',
+       'NAME': '#####',
+       'USER': '#####',
+       'PASSWORD': '#####',
+       'HOST': '#####',
+       'PORT': '#####',
    }
 }
 
